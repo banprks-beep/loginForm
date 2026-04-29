@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient.MySqlConnection
 Public Class Form1
 
     Private Sub xbtnLogin_Click(sender As Object, e As EventArgs) Handles xbtnLogin.Click
-        Dim connstring As String = "Server=192.168.10.105;Port=3306;Database=myproject;Uid=root;Password=Tahkohos165543;"
+        Dim connstring As String = "Server=192.168.10.;Port=3306;Database=myproject;Uid=root;Password=;"
         Using conn As New MySqlConnection(connstring)
             Try
                 conn.Open()
